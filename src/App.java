@@ -18,7 +18,7 @@ public class App {
             }
 
         } while (cantidad < 3 || cantidad > 20);
-
+        System.out.println();
         return cantidad;
     }
 
