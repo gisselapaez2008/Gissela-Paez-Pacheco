@@ -63,9 +63,9 @@ El programa debe tener, como mínimo, funciones independientes para:
 1. Leer y validar la cantidad de mediciones.
 2. Verificar si un tiempo pertenece al rango permitido.
 3. Cargar los tiempos en el arreglo.
-4. Calcular la suma de los tiempos.
+4. Calcular la suma de los tiempos
 5. Contar valores que pertenezcan a un rango.
-6. Contar valores mayores que un límite.
+6. Contar valores mayores que un límite. 
 7. Calcular el promedio.
 8. Buscar el menor tiempo.
 9. Buscar la primera posición del menor tiempo.
@@ -103,3 +103,6 @@ Para este caso:
 El programa también será probado con otros valores, incluyendo datos inválidos y valores repetidos.
 
 ---
+
+Analisis del ejercicio 
+-Utilizo un Do while, dentro de ese do while utilizo un if, para ingresar la condicion, de que la cantidad de mediciones debe estar entre 3 y 20, en tal caso de que no cumpla esa condicion se registrara un error, que le dira al usuario que ingrese un nuevo valor que cumpla esa condicion
